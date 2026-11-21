@@ -1,0 +1,14 @@
+{
+  "number": 16,
+  "name": "BinaryEmbeddingLab",
+  "short": "Binary vector retrieval",
+  "summary": "Measure recall and actual packed-vector storage for sign-quantized synthetic embeddings.",
+  "profile": "core",
+  "timeout": 600,
+  "scope": "Sign quantization of synthetic vectors. Raw storage excludes index and metadata; no semantic-quality claim.",
+  "skills": [
+    "Python",
+    "Data Processing",
+    "Software Testing"
+  ]
+}

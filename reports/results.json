@@ -1,0 +1,31 @@
+{
+  "project": "BinaryEmbeddingLab",
+  "number": 16,
+  "status": "local_run_passed",
+  "timestamp_utc": "2026-11-20T04:28:58Z",
+  "duration_seconds": 0.16196608543395996,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "Pillow": "13.0.0"
+  },
+  "source_sha256": {
+    "common.py": "6824312bac56d81a071760617f624272948f76fcae8190f8168a8911c8f7e8b0",
+    "experiment.py": "b65b5aef6cbc688dde501d3df92e748bce807542052f6e61be89fa28f4f54177",
+    "run.py": "f59c8f7399ab614d89f8a565b96f60875e75284d439fe5a38bd6837c730dfdbf"
+  },
+  "result": {
+    "recall_at_10": 0.306,
+    "float_storage_bytes": 256000,
+    "packed_storage_bytes": 8000,
+    "storage_ratio": 32.0,
+    "checks": [
+      "Actual bit packing reduces raw vector storage 32x",
+      "Real Hamming distances computed"
+    ],
+    "scope": "Sign quantization of synthetic vectors. Raw storage excludes index and metadata; no semantic-quality claim."
+  },
+  "models_used": [],
+  "publication_note": "Local fixture checks passed, not independent validation or user approval. Review this run before publishing."
+}
